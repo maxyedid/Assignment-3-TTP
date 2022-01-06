@@ -33,8 +33,12 @@ document.querySelector("ul").append(list)
 //#12
 let ordered = document.querySelectorAll("ol > li")
 
-/*for (let i = 0; i < ordered.length; i++) {
+for (let i = 0; i < ordered.length; i++) {
     ordered[i].style.backgroundColor = "green"
-}*/
-ordered.forEach(li => li.style.backgroundColor = "green")
-//
+}
+
+divSelect.innerText = "Testing"
+//Second answer: ordered.forEach(li => li.style.backgroundColor = "green")
+//#13
+//divSelect.remove()
+document.querySelector("div.footer").remove()
