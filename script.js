@@ -6,4 +6,7 @@ let contain = document.getElementById("container")
 
  //#3
  let secondSelect = document.querySelectorAll(".second")
-secondSelect[1].innerText = "zero"
+
+ let thirdSelect = document.querySelector("ol > li.third")
+
+ thirdSelect.innerText = "six"
