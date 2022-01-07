@@ -37,7 +37,6 @@ for (let i = 0; i < ordered.length; i++) {
     ordered[i].style.backgroundColor = "green"
 }
 
-divSelect.innerText = "Testing"
 //Second answer: ordered.forEach(li => li.style.backgroundColor = "green")
 //#13
 //divSelect.remove()
